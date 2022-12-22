@@ -74,13 +74,13 @@ public class Utilizador {
         System.out.println("\n\n*****       Informações do Perfil          *****");
         System.out.println("\n*************************************************");
         String str = "\n\t\t Tipo de User: " +tipoUser;
-        str += "\n\t\t Nome: " +nome;
-        str += "\n\t\t Apelido: " +apelido;
-        str += "\n\t\t Username: " +username;
-        str += "\n\t\t Password: " +password;
-        str += "\n\t\t Cidade:   " +cidade;
-        str += "\n\t\t Telemóvel: " +telemovel;
-        str += "\n\t\t NIF: " +nif;
+        str += "\n\t\t\t Nome: " +nome;
+        str += "\n\t\t\t Apelido: " +apelido;
+        str += "\n\t\t\t Username: " +username;
+        str += "\n\t\t\t Password: " +password;
+        str += "\n\t\t\t Cidade:   " +cidade;
+        str += "\n\t\t\t Telemóvel: " +telemovel;
+        str += "\n\t\t\t NIF: " +nif;
 
         return str;
     }
